@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/zxydaisy/storage#readme",
   "dependencies": {
+    "@material-ui/core": "^3.0.0",
+    "@material-ui/icons": "^3.0.1",
+    "@types/material-ui": "^0.21.5",
     "apollo-cache-inmemory": "^1.1.5",
     "apollo-client": "^2.3.7",
     "apollo-link": "^1.2.1",
@@ -36,11 +39,12 @@
     "express": "^4.16.3",
     "graphql": "0.11.7",
     "graphql-upload": "^8.0.0",
+    "material-ui": "^0.20.2",
     "material-ui-upload": "^1.2.1",
     "parcel-bundler": "^1.9.7",
-    "react": "^16.4.2",
+    "react": "^16.7.0",
     "react-apollo": "^2.1.9",
-    "react-dom": "^16.4.2",
+    "react-dom": "^16.3.0",
     "subscriptions-transport-ws": "^0.9.14",
     "supervisor": "^0.12.0",
     "tsc-watch": "^1.0.26",
@@ -49,8 +53,8 @@
     "typescript": "^3.0.1"
   },
   "devDependencies": {
-    "@types/node": "^10.5.5",
     "@types/graphql": "^0.13.3",
+    "@types/node": "^10.5.5",
     "@types/react": "^16.4.7",
     "@types/react-dom": "^16.0.6"
   }
