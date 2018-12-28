@@ -1,14 +1,15 @@
 
-import * as React from 'react';
+import { Component  } from 'react';
 
 interface Iprops {
+  name? : any
 }
-export default class Uploader extends React.Component<Iprops, {}> {
+export default class Uploader extends Component<Iprops, {}> {
   onFileLoad = () => {
     // TODO
   }
 
   render() {
-     <div></div>
+    return  <div></div>;
   }
 };
